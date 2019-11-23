@@ -76,6 +76,7 @@ function displayScore() {
 
     fill(255);
     textSize(10);
+    textAlign(LEFT);
     text('SCORE: ' + score, 1, 10);
 
 }
